@@ -4,44 +4,44 @@
 This project implements a network port scanner using Python. It scans a target host for open ports in a given range and reports them. It is useful for basic vulnerability assessments or network troubleshooting.
 
 **Obejectives:**
-Scan a specific host for open TCP ports.
+* Scan a specific host for open TCP ports.
 
-Provide real-time feedback on port status.
+* Provide real-time feedback on port status.
 
-Handle common exceptions and delays.
+* Handle common exceptions and delays.
 
-Offer an educational understanding of socket programming and network security.
+* Offer an educational understanding of socket programming and network security.
 
 **Technologies Used:**
-Python 3
+* Python 3
 
-Socket Programming
+* Socket Programming
 
-Jupyter Notebook (.ipynb interface)
+* Jupyter Notebook (.ipynb interface)
 
-Time module
+* Time module
 
-Threading
+* Threading
 
 **Features:**
-Accepts IP address or hostname as input.
+* Accepts IP address or hostname as input.
 
-Scans a range of ports (default: 1–1024).
+* Scans a range of ports (default: 1–1024).
 
-Uses TCP to test connectivity to each port.
+* Uses TCP to test connectivity to each port.
 
-Prints open ports and optionally saves to a log file.
+* Prints open ports and optionally saves to a log file.
 
 **How to Run:**
-Install Python 3 (if not installed)
+* Install Python 3 (if not installed)
 sudo apt install python3
 
-**Open the notebook:**
+* Open the Notebook:
 jupyter notebook port_scanner.py.ipynb
 
-Run all cells, and provide a target when prompted.
+* Run all cells, and provide a target when prompted.
 
-**Example usage (in script version):**
+* Example usage (in script version):
 python3 port_scanner.py <hostname_or_ip>
 
  **Example Output:**
@@ -51,24 +51,24 @@ Port 80: OPEN (HTTP)
 Port 443: OPEN (HTTPS)
 
 **Use Cases:**
-Penetration testing (basic).
+* Penetration testing (basic).
 
-Home network security scanning.
+* Home network security scanning.
 
-Educational purposes (network fundamentals).
+* Educational purposes (network fundamentals).
 
-Server port availability check.
+* Server port availability check.
 
 **Future Enhancements:**
-Add multi-threading to speed up scanning.
+* Add multi-threading to speed up scanning.
 
-Include UDP port scanning.
+* Include UDP port scanning.
 
-Add GUI using Tkinter or PyQt.
+* Add GUI using Tkinter or PyQt.
 
-Export results to CSV or JSON.
+* Export results to CSV or JSON.
 
-Add Nmap API integration.
+* Add Nmap API integration.
  
  **Conclusion:**
  This port scanner project demonstrates practical applications of Python in network programming and security. It provides a foundation for more advanced tools and promotes learning through hands-on development.
